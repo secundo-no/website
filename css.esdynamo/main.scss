@@ -115,8 +115,10 @@ h3 {
 .step {
 	margin: 32px 0;
 	
-		.row {
-			display: inline-flex;
+		.row {					
+			@media only screen and(min-width: $desktop-breakpoint) {
+				display: inline-flex;
+			}
 		
 			.bullet {
 				background-color: #fff;
@@ -140,8 +142,7 @@ h3 {
 			
 			.title {
 				font-weight: 600;				
-				font-size: 28px;
-				margin-left: 12px;
+				font-size: 28px;				
 				
 				@media only screen and(min-width: $desktop-breakpoint) {
 						font-size: 36px;

@@ -127,11 +127,12 @@ h3 {
 	margin: 32px 0;
 }
 
-.step .row {
-	display: inline-flex;
+@media only screen and (min-width: 1024px) {
+	.step .row {
+		display: inline-flex;
+	}
 }
-
-.step .row .bullet {
+  .step .row .bullet {
 	background-color: #fff;
 	color: #EB5E00;
 	text-align: center;
@@ -151,10 +152,9 @@ h3 {
 		font-size: 36px;
 	}
 }
-    .step .row .title {
+  .step .row .title {
 	font-weight: 600;
 	font-size: 28px;
-	margin-left: 12px;
 }
 
 @media only screen and (min-width: 1024px) {
