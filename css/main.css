@@ -1,0 +1,288 @@
+html {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	  /* Firefox */
+}
+
+body {
+	background: #EB5E00;
+	color: #fff;
+	font-family: 'Inter', sans-serif;
+	font-size: 32px;
+	line-height: 1.5;
+	margin: 0 auto;
+}
+
+nav, header, footer {
+	display: block;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.container {
+	width: 100%;
+	max-width: 980px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+@media only screen and (min-width: 1024px) {
+	.container {
+		width: 80%;
+	}
+}
+nav {
+	display: inline-block;
+	width: 100%;
+	margin: 24px auto;
+	background: #EB5E00;
+}
+
+#logo {
+	font-family: 'Lora', serif;
+	float: left;
+	font-size: 30px;
+}
+
+@media only screen and (min-width: 1024px) {
+	#logo {
+		font-size: 36px;
+	}
+}
+#menu {
+	float: right;
+}
+
+#menu a {
+	font-weight: 600;
+	background-color: #fff;
+	color: #EB5E00;
+	font-size: 22px;
+	padding: 12px 36px;
+	border-radius: 32px;
+}
+
+@media only screen and (min-width: 1024px) {
+	#menu a {
+		font-size: 24px;
+		padding: 12px 36px;
+	}
+}
+header {
+	margin: 64px 0;
+	background: #EB5E00;
+}
+
+h1 {
+	font-size: 54px;
+	font-family: 'Lora', serif;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+@media only screen and (min-width: 1024px) {
+	h1 {
+		font-size: 130px;
+	}
+}
+h2 {
+	font-size: 26px;
+	font-weight: 400;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+@media only screen and (min-width: 1024px) {
+	h2 {
+		font-size: 40px;
+	}
+}
+.how {
+	margin: 24px 0;
+	display: inline-block;
+	width: 100%;
+}
+
+@media only screen and (min-width: 1024px) {
+	.how {
+		margin: 32px 0;
+	}
+}
+h3 {
+	font-family: 'Lora', serif;
+	font-size: 26px;
+}
+
+@media only screen and (min-width: 1024px) {
+	h3 {
+		font-size: 36px;
+	}
+}
+.step {
+	margin: 32px 0;
+}
+
+.step .row {
+	display: inline-flex;
+}
+
+.step .row .bullet {
+	background-color: #fff;
+	color: #EB5E00;
+	text-align: center;
+	height: 44px;
+	width: 44px;
+	border-radius: 22px;
+	line-height: 44px;
+	font-size: 26px;
+}
+
+@media only screen and (min-width: 1024px) {
+	.step .row .bullet {
+		height: 60px;
+		width: 60px;
+		border-radius: 30px;
+		line-height: 60px;
+		font-size: 36px;
+	}
+}
+    .step .row .title {
+	font-weight: 600;
+	font-size: 28px;
+	margin-left: 12px;
+}
+
+@media only screen and (min-width: 1024px) {
+	.step .row .title {
+		font-size: 36px;
+		margin-left: 24px;
+	}
+}
+  .step .body {
+	margin: 0;
+	font-size: 26px;
+}
+
+@media only screen and (min-width: 1024px) {
+	.step .body {
+		font-size: 36px;
+	}
+}
+.call-to-action {
+	text-align: center;
+}
+
+.call-to-action .headline {
+	font-family: 'Lora', serif;
+	font-size: 26px;
+}
+
+@media only screen and (min-width: 1024px) {
+	.call-to-action .headline {
+		font-size: 36px;
+	}
+}
+  .call-to-action .button {
+	color: #EB5E00;
+	background-color: #fff;
+	font-weight: 600;
+	padding: 12px 100px;
+	border-radius: 40px;
+	font-size: 26px;
+}
+
+@media only screen and (min-width: 1024px) {
+	.call-to-action .button {
+		padding: 12px 160px;
+		border-radius: 40px;
+		font-size: 36px;
+	}
+}
+  .call-to-action .disclaimer {
+	font-size: 18px;
+}
+
+@media only screen and (min-width: 1024px) {
+	.call-to-action .disclaimer {
+		font-size: 24px;
+	}
+}
+footer {
+	background-color: white;
+	color: #EB5E00;
+	display: flex;
+	padding: 0;
+}
+
+@media only screen and (min-width: 1024px) {
+	footer {
+		padding: 64px 0;
+	}
+}
+  footer a {
+	color: #EB5E00;
+	display: block;
+	margin: 24px 0;
+	font-size: 24px;
+}
+
+@media only screen and (min-width: 1024px) {
+	footer a {
+		font-size: 36px;
+	}
+}
+  footer .top {
+	margin: 24px 0;
+}
+
+@media only screen and (min-width: 1024px) {
+	footer .top {
+		margin: 32px 0;
+	}
+}
+    footer .top .logo {
+	font-family: 'Lora', serif;
+	font-size: 40px;
+	margin: 0;
+	padding: 0;
+}
+
+@media only screen and (min-width: 1024px) {
+	footer .top .logo {
+		font-size: 60px;
+	}
+}
+    footer .top .phrase {
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+}
+
+@media only screen and (min-width: 1024px) {
+	footer .top .phrase {
+		font-size: 28px;
+	}
+}
+  footer .column-1 {
+	float: none;
+}
+
+@media only screen and (min-width: 1024px) {
+	footer .column-1 {
+		float: left;
+	}
+}
+  footer .column-2 {
+	float: none;
+}
+
+@media only screen and (min-width: 1024px) {
+	footer .column-2 {
+		float: right;
+	}
+}
