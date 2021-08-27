@@ -18,33 +18,49 @@ footer {
     display: block;
 }
 
-section {
-    display: inline-block;
-    width: 100%;
-}
-
 a {
     color: #fff;
     text-decoration: none;
 }
 
 h1 {
-    font-size: 130px;
+    font-size: 54px;
     font-family: 'Lora', serif;
     margin: 0px;
     padding: 0px;
+    text-align: center;
+}
+
+@media only screen and(min-width: 1024px) {
+    h1 {
+        font-size: 130px;
+    }
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 26px;
     font-weight: 400;
     margin: 0px;
     padding: 0px;
     text-align: center;
 }
 
+@media only screen and(min-width: 1024px) {
+    h2 {
+        font-size: 40px; 
+    }
+}
+
+
 h3 {
     font-family: 'Lora', serif;
+    font-size: 26px;
+}
+
+@media only screen and(min-width: 1024px) {
+    h3 {
+        font-size: 36px;
+    }
 }
 
 .container {
@@ -136,9 +152,10 @@ header {
     background: #EB5E00;
 }
 
-footer {
-    background-color: white;
-    color: #EB5E00;
+.how {
+    margin: 32px 0;
+    display: inline-block;
+    width: 100%;
 }
 
 .row {
@@ -177,7 +194,7 @@ footer {
 }
 
 .button {
-    padding: 12px 32px;
+    padding: 12px 160px;
     color: #EB5E00;
     background-color: #fff;
     border-radius: 40px;
@@ -186,4 +203,42 @@ footer {
 
 .disclaimer {
     font-size: 24px;
+}
+
+footer {
+    background-color: white;
+    color: #EB5E00;
+    display: flex;
+    padding: 64px 0;
+}
+
+footer a {
+    color: #EB5E00;
+    display: block;
+    margin: 24px 0;
+}
+
+.top {
+    margin: 32px 0;
+}
+
+.logo {
+    font-family: 'Lora', serif;
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+.phrase {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+}
+
+.column-1 {
+    float: left;
+}
+
+.column-2 {
+    float: right;
 }
