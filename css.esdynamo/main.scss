@@ -1,265 +1,252 @@
 $desktop-breakpoint: 1024px;
 
 html {
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale; /* Firefox */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; /* Firefox */
 }
 
 body {
-	background: #EB5E00;
-	color: #fff;
-	font-family: 'Inter', sans-serif;
-	font-size: 32px;
-	line-height: 1.5;
-	margin: 0 auto;
+    background: #EB5E00;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    line-height: 1.5;
+    margin: 0 auto;
 }
 
-nav, header, footer {
-	display: block;
+nav,
+header,
+footer {
+    display: block;
 }
 
 a {
-	color: #fff;
-	text-decoration: none;
+    color: #fff;
+    text-decoration: none;
 }
 
 .container {
-	width: 100%;
-	max-width: 980px;
-	margin: 0 auto;
-	padding: 0 15px;
-	@media only screen and(min-width: $desktop-breakpoint) {
-		width: 80%;
-	}
+    width: 100%;
+    max-width: 980px;    	
+
+    @media only screen and(min-width: $desktop-breakpoint) {
+        width: 80%;
+		margin: 0 auto;
+		padding: 0 15px;
+    }
 }
 
 nav {
-	display: inline-block;
-	width: 100%;
-	margin: 24px auto;
-	background: #EB5E00;
+    display: inline-block;
+    width: 100%;
+    margin: 24px auto;
+    background: #EB5E00;
 }
 
 #logo {
-	font-family: 'Lora', serif;
-	float: left;
-	font-size: 30px;						
-	
-	@media only screen and(min-width: $desktop-breakpoint) {
-		font-size: 36px;						
-					}
+    font-family: 'Lora', serif;
+    float: left;
+    font-size: 30px;
+    @media only screen and(min-width: $desktop-breakpoint) {
+        font-size: 36px;
+    }
 }
 
 #menu {
-	float: right;
-	
-	a {
-		font-weight: 600;
-		background-color: #fff;
-		color: #EB5E00;
-		font-size: 22px;
-		padding: 12px 36px;
-		border-radius: 32px;
-		
-		@media only screen and(min-width: $desktop-breakpoint) {
-						font-size: 24px;
-						padding: 12px 36px;
-					}
-	}
+    float: right;
+
+    a {
+        font-weight: 600;
+        background-color: #fff;
+        color: #EB5E00;
+        font-size: 22px;
+        padding: 12px 36px;
+        border-radius: 32px;
+        @media only screen and(min-width: $desktop-breakpoint) {
+            font-size: 24px;
+            padding: 12px 36px;
+        }
+    }
 }
 
 header {
-	margin: 64px 0;
-	background: #EB5E00;
+    margin: 64px 0;
+    background: #EB5E00;
 }
 
 h1 {
-	font-size: 54px;
-	font-family: 'Lora', serif;
-	margin: 0px;
-	padding: 0px;
-	text-align: center;
-	@media only screen and(min-width: $desktop-breakpoint) {
-		font-size: 130px;
-	}
+    font-size: 54px;
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    @media only screen and(min-width: $desktop-breakpoint) {
+        font-size: 130px;
+    }
 }
 
 h2 {
-	font-size: 26px;
-	font-weight: 400;
-	margin: 0px;
-	padding: 0px;
-	text-align: center;
-	@media only screen and(min-width: $desktop-breakpoint) {
-		font-size: 40px;
-	}
+    font-size: 26px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    @media only screen and(min-width: $desktop-breakpoint) {
+        font-size: 40px;
+    }
 }
 
 .how {
-	margin: 24px 0;
-	display: inline-block;
-	width: 100%;
-	@media only screen and(min-width: $desktop-breakpoint) {
-		margin: 32px 0;
-	}
+    margin: 24px 0;
+    display: inline-block;
+    width: 100%;
+    @media only screen and(min-width: $desktop-breakpoint) {
+        margin: 32px 0;
+    }
 }
 
 h3 {
-	font-family: 'Lora', serif;
-	font-size: 26px;
-	@media only screen and(min-width: $desktop-breakpoint) {
-		font-size: 36px;
-	}
+    font-family: 'Lora', serif;
+    font-size: 26px;
+    @media only screen and(min-width: $desktop-breakpoint) {
+        font-size: 36px;
+    }
 }
 
 .step {
-	margin: 32px 0;
-	
-		.row {					
-			@media only screen and(min-width: $desktop-breakpoint) {
-				display: inline-flex;
-			}
-		
-			.bullet {
-				background-color: #fff;
-				color: #EB5E00;
-				text-align: center;
-				height: 44px;
-				width: 44px;
-				border-radius: 22px;
-				line-height: 44px;
-				font-size: 26px;
+    margin: 32px 0;
 
-					@media only screen and(min-width: $desktop-breakpoint) {
-						height: 60px;
-				width: 60px;
-				border-radius: 30px;
-				line-height: 60px;
-				font-size: 36px;
-				
-					}
-			}
-			
-			.title {
-				font-weight: 600;				
-				font-size: 28px;				
-				
-				@media only screen and(min-width: $desktop-breakpoint) {
-						font-size: 36px;
-						margin-left: 24px;
-					}
-			}
-	}
-	
-	.body {
-		margin: 0;
-		font-size: 26px;
+    .row {
+        @media only screen and(min-width: $desktop-breakpoint) {
+            display: inline-flex;
+        }
 
-		@media only screen and(min-width: $desktop-breakpoint) {
-						font-size: 36px;
-					}
-	}
+        .bullet {
+            background-color: #fff;
+            color: #EB5E00;
+            text-align: center;
+            height: 44px;
+            width: 44px;
+            border-radius: 22px;
+            line-height: 44px;
+            font-size: 26px;
+            @media only screen and(min-width: $desktop-breakpoint) {
+                height: 60px;
+                width: 60px;
+                border-radius: 30px;
+                line-height: 60px;
+                font-size: 36px;
+            }
+        }
+
+        .title {
+            font-weight: 600;
+            font-size: 28px;
+            @media only screen and(min-width: $desktop-breakpoint) {
+                font-size: 36px;
+                margin-left: 24px;
+            }
+        }
+    }
+
+    .body {
+        margin: 0;
+        font-size: 26px;
+        @media only screen and(min-width: $desktop-breakpoint) {
+            font-size: 36px;
+        }
+    }
 }
 
 .call-to-action {
-	text-align: center;
-	
-	.headline {
-		font-family: 'Lora', serif;
-		font-size: 26px;
-		
-		@media only screen and(min-width: $desktop-breakpoint) {
-						font-size: 36px;
-					}
-	}
-	
-	.button {		
-		color: #EB5E00;
-		background-color: #fff;		
-		font-weight: 600;
-		padding: 12px 100px;
-		border-radius: 40px;
-		font-size: 26px;
+    text-align: center;
 
-		@media only screen and(min-width: $desktop-breakpoint) {
-						padding: 12px 160px;
-						border-radius: 40px;
-						font-size: 36px;
-					}
-	}
-	
-	.disclaimer {
-		font-size: 18px;
-		
-		@media only screen and(min-width: $desktop-breakpoint) {
-						font-size: 24px;
-					}
-	}
+    .headline {
+        font-family: 'Lora', serif;
+        font-size: 26px;
+        @media only screen and(min-width: $desktop-breakpoint) {
+            font-size: 36px;
+        }
+    }
+
+    .button {
+        color: #EB5E00;
+        background-color: #fff;
+        font-weight: 600;
+        padding: 12px 100px;
+        border-radius: 40px;
+        font-size: 26px;
+        @media only screen and(min-width: $desktop-breakpoint) {
+            padding: 12px 160px;
+            border-radius: 40px;
+            font-size: 36px;
+        }
+    }
+
+    .disclaimer {
+        font-size: 18px;
+        @media only screen and(min-width: $desktop-breakpoint) {
+            font-size: 24px;
+        }
+    }
 }
 
 footer {
-	background-color: white;
-	color: #EB5E00;
-	display: flex;
-	padding: 0;
-	
-	@media only screen and(min-width: $desktop-breakpoint) {
-						padding: 64px 0;
-					}
-					
-	a {
-		color: #EB5E00;
-		display: block;
-		margin: 24px 0;
-		font-size: 24px;
-		
-		@media only screen and(min-width: $desktop-breakpoint) {
-						font-size: 36px;
-					}
-	}
-	
-	.top {
-		margin: 24px 0;
-		
-		@media only screen and(min-width: $desktop-breakpoint) {
-						margin: 32px 0;
-					}
-					
-		.logo {
-			font-family: 'Lora', serif;
-			font-size: 40px;
-			margin: 0;
-			padding: 0;
-			
-			@media only screen and(min-width: $desktop-breakpoint) {
-						font-size: 60px;
-					}
-		}
-		
-		.phrase {
-			font-size: 20px;
-			margin: 0;
-			padding: 0;
-			
-			@media only screen and(min-width: $desktop-breakpoint) {
-						font-size: 28px;
-					}
-		}
-	}
-	
-	.column-1 {
-		float: none;
-		
-		@media only screen and(min-width: $desktop-breakpoint) {
-						float: left;
-					}
-	}
-	
-	.column-2 {
-		float: none;
-		
-		@media only screen and(min-width: $desktop-breakpoint) {
-						float: right;
-					}
-	}
+    background-color: white;
+    color: #EB5E00;
+    display: flex;
+    padding: 0;
+    @media only screen and(min-width: $desktop-breakpoint) {
+        padding: 64px 0;
+    }
+
+    a {
+        color: #EB5E00;
+        display: block;
+        margin: 24px 0;
+        font-size: 24px;
+        @media only screen and(min-width: $desktop-breakpoint) {
+            font-size: 36px;
+        }
+    }
+
+    .top {
+        margin: 24px 0;
+        @media only screen and(min-width: $desktop-breakpoint) {
+            margin: 32px 0;
+        }
+
+        .logo {
+            font-family: 'Lora', serif;
+            font-size: 40px;
+            margin: 0;
+            padding: 0;
+            @media only screen and(min-width: $desktop-breakpoint) {
+                font-size: 60px;
+            }
+        }
+
+        .phrase {
+            font-size: 20px;
+            margin: 0;
+            padding: 0;
+            @media only screen and(min-width: $desktop-breakpoint) {
+                font-size: 28px;
+            }
+        }
+    }
+
+    .column-1 {
+        float: none;
+        @media only screen and(min-width: $desktop-breakpoint) {
+            float: left;
+        }
+    }
+
+    .column-2 {
+        float: none;
+        @media only screen and(min-width: $desktop-breakpoint) {
+            float: right;
+        }
+    }
 }
