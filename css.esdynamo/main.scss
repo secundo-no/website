@@ -130,6 +130,7 @@ h3 {
             border-radius: 22px;
             line-height: 44px;
             font-size: 26px;
+			
             @media only screen and(min-width: $desktop-breakpoint) {
                 height: 60px;
                 width: 60px;
@@ -141,7 +142,8 @@ h3 {
 
         .title {
             font-weight: 600;
-            font-size: 28px;
+            font-size: 22px;
+
             @media only screen and(min-width: $desktop-breakpoint) {
                 font-size: 36px;
                 margin-left: 24px;
@@ -151,7 +153,8 @@ h3 {
 
     .body {
         margin: 0;
-        font-size: 26px;
+        font-size: 22px;
+
         @media only screen and(min-width: $desktop-breakpoint) {
             font-size: 36px;
         }
@@ -160,6 +163,7 @@ h3 {
 
 .call-to-action {
     text-align: center;
+	margin: 50px 0;
 
     .headline {
         font-family: 'Lora', serif;
